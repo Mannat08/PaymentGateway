@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .top{
+      padding-top: 20px;
+      font-weight: bolder;
+      font-size: x-large;
+  }
+  .parent-div {
+    display: flex;
+    justify-content: center;
+   
+
+  }
+  .child-div{
+    margin-top: 11%;
+    padding: 13px;
+    width: 24vw;
+    background-color: #F7F7F7; 
+    border: 2px solid  #EAEEF0;
+    font-weight: bold;
+    font-size: x-large;
+  }
+
+  .image-section{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    width: 300px;
+    margin-left: 20px;
+  }
+  img{
+    margin-top: 17px;
+    height: 41px;
+    width: 70px;
+    
+  }
+  .action-space{
+    border: 2px solid #EAEEF0;
+    width: 24vw;
+    height: 310px;
+  }
+  
+  .cardNum-input-area{
+    width : 44vh;
+    padding : 14px;
+    /* border : 1px solid rgb(63, 73, 63); */
+    margin-top: 17px;
+    margin-left: 12px;
+    text-align: start;
+    font-weight: bold;
+  }
+
+  .cardNum-input-area input {
+    width: 328px;
+    height: 29px;
+    border-radius: 3px;
+    border: 1px solid #EAEEF0;
+    margin-left: 2px;
+    margin-top: 8px;
+  }
+  .mid{
+      display : flex;
+      
+  }
+  .expDate-input-area,.cvv-input-area,.cardOwner-input-area {
+    /* width : 44vh; */
+    padding : 14px;
+    margin-top: -14px;
+    margin-left: 12px;
+    text-align: start;
+    font-weight: bold;
+  }
+  .expDate-input-area input{
+    width: 150px;
+    height: 29px;
+    border-radius: 3px;
+    border: 1px solid #d4d8dd;
+    margin-left: 2px;
+    margin-top: 8px;
+  }
+  .cvv-input-area input{
+    width: 137px;
+    height: 29px;
+    border-radius: 3px;
+    border: 1px solid #d4d8dd;
+    margin-left: 2px;
+    margin-top: 8px;
+  }
+  .cardOwner-input-area input{
+    width: 328px;
+    height: 29px;
+    border-radius: 3px;
+    border: 1px solid #d4d8dd;
+    margin-left: 2px;
+    margin-top: 8px;
+  }
+  .btn{
+    /* margin-top: 11%; */
+    padding: 8.5px;
+    width: 23.73vw;
+    background-color: #F7F7F7; 
+    /* border: 2px solid grey; */
+    font-weight: bold;
+    font-size: larger;
+  }
+  .btn input{
+    background-color: #5DB85E;
+    color: #fff;
+    font-size: larger;
+    cursor: pointer;
+    width: 21vw;
+    height: 40px;
+    outline: none;
+    border : none;
+    border-radius: 6px;
+  }
+ 
